@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <form>
+    <input type="radio" name="rps" id="rock-rock">
+    <input type="radio" name="rps" id="rock-paper">
+    <input type="radio" name="rps" id="rock-scissors">
+    <input type="radio" name="rps" id="paper-rock">
+    <input type="radio" name="rps" id="paper-paper">
+    <input type="radio" name="rps" id="paper-scissors">
+    <input type="radio" name="rps" id="scissors-rock">
+    <input type="radio" name="rps" id="scissors-paper">
+    <input type="radio" name="rps" id="scissors-scissors">
+    <div id="game">
+        <div>
+            <h2>You</h2>
+            <div id="your-choice"></div>
+        </div>
+        <div>
+            vs
+        </div>
+        <div>
+            <h2>Computer</h2>
+            <div id="computer-choice"></div>
+        </div>
+    </div>
+    <p>Pick one!</p>
+    <div id="choices">
+        <div>
+        <label for="rock-rock">✊🏻</label>
+        <label for="rock-paper">✊🏻</label>
+        <label for="rock-scissors">✊🏻</label>
+        </div>
+        <div>
+        <label for="paper-rock">🖐🏻</label>
+        <label for="paper-paper">🖐🏻</label>
+        <label for="paper-scissors">🖐🏻</label>
+        </div>
+        <div>
+        <label for="scissors-rock">✌🏻</label>
+        <label for="scissors-paper">✌🏻</label>
+        <label for="scissors-scissors">✌🏻</label>
+        </div>
+    </div>
+    <div id="result"></div>
+    <button type="reset">Play again?</button>
+    </form>
+</body>
+</html>
